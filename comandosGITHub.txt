@@ -28,3 +28,4 @@ git clone : se usa para copiar un repositorio
 git branch se usa para listar, crear o borrar ramas. Por ejemplo, si quieres listar todas las ramas presentes en el repositorio. 
 git push origin main --force : fuerza la subida de los archivos al repositorio remoto pero no es recomendable porque puede ignorar errores.push
 git pull URL : trae todos los archivos del repositorio remoto hacia el local
+git clone URL : permite crear una copia extacta de todos los archivos existentes en un repositorio remoto
