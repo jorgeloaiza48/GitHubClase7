@@ -25,4 +25,4 @@ git commit -m "mensaje" : comitea los cambios hechos, es decir, agrega un coment
 git push origin master : envía los cambios al repositorio remoto
 git log : registra un historial de los cambios en el proyecto. Con este comando puedo ver los commits realizados.
 git clone : se usa para copiar un repositorio
-git branch se usa para listar, crear o borrar ramas. Por ejemplo, si quieres listar todas las ramas presentes en el repositorio.
+git branch se usa para listar, crear o borrar ramas. Por ejemplo, si quieres listar todas las ramas presentes en el repositorio. 
