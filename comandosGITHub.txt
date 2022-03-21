@@ -1,0 +1,28 @@
+Creando el repositorio local
+
+git --version  : muestra la version de git instalada
+git init       : inicializa un repositorio local vacío
+git config user.name "jorgeloaiza48" : agrega el nombre de usuario con el que se creó la cuenta en GitHub
+git config user.name : muestra el nombre de usuario
+git config user.email "jelm48@misena.edu.co" : permite saber el correo electrónico con el que se registró en GitHub
+git config user.email : verifica el correo electrónico
+
+Si no se desea estar realizando constantemente las anteriores configuraciones, se puede agregar --globla, es decir, cualquier repositorio creado localmente 
+tendrá tu firma de tu nombre y de email. git config --global user.name "jorgeloaiza48" y git config --global user.email "jelm48@misena.edu.co"
+
+ls -a : muestra los archivos contenidos en la carpeta sobre la cual se está trabajando.
+
+git remote add origin URL : conecta un repositorio local con uno remoto. Ejemplo: git remote add origin https://github.com/jorgeloaiza48/cierre-modulo2
+git remote -v : verifica el repositorio remoto con el cual se está conectado desde la máquina.Es decir, verifica la sincronización de nuestra carpeta local con el repositorio remoto.
+
+Agregando archivos al repositorio
+Para que Git pueda llevar un control de las modificaciones realizadas en un archivo tenemos que indicarle qué archivos queremos que mire. ¿Cómo se hace eso?
+
+git add : agrega un archivo al repositorio para ser monitoreado. Ejemplo:  git add pepe.txt
+git status : muestra el status de los archivos
+git add .  : agrega todos los archivos a ser monitoreados
+git commit -m "mensaje" : comitea los cambios hechos, es decir, agrega un comentario en la línea de tiempo de los cambios hechos.
+git push origin master : envía los cambios al repositorio remoto
+git log : registra un historial de los cambios en el proyecto. Con este comando puedo ver los commits realizados.
+git clone : se usa para copiar un repositorio
+git branch se usa para listar, crear o borrar ramas. Por ejemplo, si quieres listar todas las ramas presentes en el repositorio.
