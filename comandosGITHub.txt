@@ -22,10 +22,9 @@ git add : agrega un archivo al repositorio para ser monitoreado. Ejemplo:  git a
 git status : muestra el status de los archivos
 git add .  : agrega todos los archivos a ser monitoreados
 git commit -m "mensaje" : comitea los cambios hechos, es decir, agrega un comentario en la línea de tiempo de los cambios hechos.
-git push origin master : envía los cambios al repositorio remoto
+git push origin master : envía los cambios al repositorio remoto(tener en cuenta la rama o branch que puede ser main o master)
 git log : registra un historial de los cambios en el proyecto. Con este comando puedo ver los commits realizados.
-git clone : se usa para copiar un repositorio
 git branch se usa para listar, crear o borrar ramas. Por ejemplo, si quieres listar todas las ramas presentes en el repositorio. 
-git push origin main --force : fuerza la subida de los archivos al repositorio remoto pero no es recomendable porque puede ignorar errores.push
+git push origin main --force : fuerza la subida de los archivos al repositorio remoto pero no es recomendable porque puede ignorar errores.
 git pull URL : trae todos los archivos del repositorio remoto hacia el local
 git clone URL : permite crear una copia extacta de todos los archivos existentes en un repositorio remoto
