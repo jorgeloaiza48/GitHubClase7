@@ -28,3 +28,4 @@ git branch se usa para listar, crear o borrar ramas. Por ejemplo, si quieres lis
 git push origin main --force : fuerza la subida de los archivos al repositorio remoto pero no es recomendable porque puede ignorar errores.
 git pull URL : trae todos los archivos del repositorio remoto hacia el local
 git clone URL : permite crear una copia extacta de todos los archivos existentes en un repositorio remoto
+git remote rm origin : remueve un directorio o desvincula con un repositorio remoto.
